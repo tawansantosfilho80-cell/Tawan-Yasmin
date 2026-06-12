@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <audio id="music" loop>
+        <source src="music/oceano.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="start-screen">
+        <h1>Tawan ❤️ Yasmin</h1>
+        <p>Uma história que começou com uma simples pergunta...</p>
+
+        <button onclick="startExperience()">
+            Abrir Nosso Livro
+        </button>
+    </div>
+
+    <div id="content">
+
+        <section class="hero">
+            <h1>Tawan Henrique & Yasmin Gomes</h1>
+
+            <p>
+                Desde 24 de Janeiro de 2026 ❤️
+            </p>
+
+            <div id="counter"></div>
+        </section>
+
+        <section class="chapter">
+            <h2>Capítulo 1</h2>
+
+            <h3>O Início</h3>
+
+            <p>
+                Tudo começou com uma simples pergunta...
+            </p>
+
+            <p>
+                "Você faz aula de canto?"
+            </p>
+
+            <p>
+                Quem diria que aquelas palavras seriam o começo da melhor história da minha vida.
+            </p>
+
+            <p>
+                Nós nos vimos pela primeira vez em um congresso de jovens na igreja.
+            </p>
+
+            <p>
+                Entre tantas pessoas, Deus já estava escrevendo algo especial para nós.
+            </p>
+        </section>
+
+        <section class="gallery">
+
+            <img src="images/foto1.jpg">
+            <img src="images/foto2.jpg">
+            <img src="images/foto3.jpg">
+            <img src="images/foto4.jpg">
+            <img src="images/foto5.jpg">
+            <img src="images/foto6.jpg">
+
+        </section>
+
+        <section class="chapter">
+
+            <h2>Capítulo 2</h2>
+
+            <h3>Minha Cajuzinho ❤️</h3>
+
+            <p>
+                Às vezes Cajuzinho.
+            </p>
+
+            <p>
+                Às vezes Pão de Mel.
+            </p>
+
+            <p>
+                Às vezes Princesinha.
+            </p>
+
+            <p>
+                Mas sempre a pessoa que faz meus dias melhores.
+            </p>
+
+            <p>
+                Seu sorriso ilumina meus dias.
+            </p>
+
+            <p>
+                Seus olhos me trazem paz.
+            </p>
+
+            <p>
+                Seu abraço se tornou meu lugar favorito.
+            </p>
+
+        </section>
+
+        <section class="chapter">
+
+            <h2>Nosso Primeiro Beijo</h2>
+
+            <div class="date">
+                25/12/2025 ❤️
+            </div>
+
+            <p>
+                O dia em que o tempo pareceu parar.
+            </p>
+
+            <p>
+                O dia que guardarei para sempre na memória.
+            </p>
+
+        </section>
+
+        <section class="letter">
+
+            <h2>Uma Carta Para Você</h2>
+
+            <div class="paper">
+
+                <p>
+                    Meu amor,
+                </p>
+
+                <p>
+                    Quando penso em nós, lembro daquela pergunta tão simples:
+                </p>
+
+                <p>
+                    "Você faz aula de canto?"
+                </p>
+
+                <p>
+                    Quem diria que algumas palavras seriam o começo da melhor história da minha vida?
+                </p>
+
+                <p>
+                    Você chegou de forma leve e ocupou um espaço que hoje pertence somente a você.
+                </p>
+
+                <p>
+                    Seu sorriso melhora meus dias.
+                </p>
+
+                <p>
+                    Seus olhos me fazem acreditar que existe algo mágico no amor.
+                </p>
+
+                <p>
+                    Obrigado por cada abraço.
+                </p>
+
+                <p>
+                    Obrigado por cada conversa.
+                </p>
+
+                <p>
+                    Obrigado por cada momento.
+                </p>
+
+                <p>
+                    Eu escolheria você mil vezes.
+                </p>
+
+                <p>
+                    Porque entre todas as histórias possíveis...
+                </p>
+
+                <p>
+                    A nossa é minha favorita.
+                </p>
+
+                <br>
+
+                <h3>
+                    Eu te amo ❤️
+                </h3>
+
+                <h3>
+                    Tawan
+                </h3>
+
+            </div>
+
+        </section>
+
+        <section class="final">
+
+            <h1>
+                O melhor capítulo ainda está sendo escrito...
+            </h1>
+
+            <p>
+                Tawan ❤️ Yasmin
+            </p>
+
+            <p>
+                ♾️
+            </p>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <audio id="music" loop>
+        <source src="music/oceano.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="start-screen">
+        <h1>Tawan ❤️ Yasmin</h1>
+        <p>Uma história que começou com uma simples pergunta...</p>
+
+        <button onclick="startExperience()">
+            Abrir Nosso Livro
+        </button>
+    </div>
+
+    <div id="content">
+
+        <section class="hero">
+            <h1>Tawan Henrique & Yasmin Gomes</h1>
+
+            <p>
+                Desde 24 de Janeiro de 2026 ❤️
+            </p>
+
+            <div id="counter"></div>
+        </section>
+
+        <section class="chapter">
+            <h2>Capítulo 1</h2>
+
+            <h3>O Início</h3>
+
+            <p>
+                Tudo começou com uma simples pergunta...
+            </p>
+
+            <p>
+                "Você faz aula de canto?"
+            </p>
+
+            <p>
+                Quem diria que aquelas palavras seriam o começo da melhor história da minha vida.
+            </p>
+
+            <p>
+                Nós nos vimos pela primeira vez em um congresso de jovens na igreja.
+            </p>
+
+            <p>
+                Entre tantas pessoas, Deus já estava escrevendo algo especial para nós.
+            </p>
+        </section>
+
+        <section class="gallery">
+
+            <img src="images/foto1.jpg">
+            <img src="images/foto2.jpg">
+            <img src="images/foto3.jpg">
+            <img src="images/foto4.jpg">
+            <img src="images/foto5.jpg">
+            <img src="images/foto6.jpg">
+
+        </section>
+
+        <section class="chapter">
+
+            <h2>Capítulo 2</h2>
+
+            <h3>Minha Cajuzinho ❤️</h3>
+
+            <p>
+                Às vezes Cajuzinho.
+            </p>
+
+            <p>
+                Às vezes Pão de Mel.
+            </p>
+
+            <p>
+                Às vezes Princesinha.
+            </p>
+
+            <p>
+                Mas sempre a pessoa que faz meus dias melhores.
+            </p>
+
+            <p>
+                Seu sorriso ilumina meus dias.
+            </p>
+
+            <p>
+                Seus olhos me trazem paz.
+            </p>
+
+            <p>
+                Seu abraço se tornou meu lugar favorito.
+            </p>
+
+        </section>
+
+        <section class="chapter">
+
+            <h2>Nosso Primeiro Beijo</h2>
+
+            <div class="date">
+                25/12/2025 ❤️
+            </div>
+
+            <p>
+                O dia em que o tempo pareceu parar.
+            </p>
+
+            <p>
+                O dia que guardarei para sempre na memória.
+            </p>
+
+        </section>
+
+        <section class="letter">
+
+            <h2>Uma Carta Para Você</h2>
+
+            <div class="paper">
+
+                <p>
+                    Meu amor,
+                </p>
+
+                <p>
+                    Quando penso em nós, lembro daquela pergunta tão simples:
+                </p>
+
+                <p>
+                    "Você faz aula de canto?"
+                </p>
+
+                <p>
+                    Quem diria que algumas palavras seriam o começo da melhor história da minha vida?
+                </p>
+
+                <p>
+                    Você chegou de forma leve e ocupou um espaço que hoje pertence somente a você.
+                </p>
+
+                <p>
+                    Seu sorriso melhora meus dias.
+                </p>
+
+                <p>
+                    Seus olhos me fazem acreditar que existe algo mágico no amor.
+                </p>
+
+                <p>
+                    Obrigado por cada abraço.
+                </p>
+
+                <p>
+                    Obrigado por cada conversa.
+                </p>
+
+                <p>
+                    Obrigado por cada momento.
+                </p>
+
+                <p>
+                    Eu escolheria você mil vezes.
+                </p>
+
+                <p>
+                    Porque entre todas as histórias possíveis...
+                </p>
+
+                <p>
+                    A nossa é minha favorita.
+                </p>
+
+                <br>
+
+                <h3>
+                    Eu te amo ❤️
+                </h3>
+
+                <h3>
+                    Tawan
+                </h3>
+
+            </div>
+
+        </section>
+
+        <section class="final">
+
+            <h1>
+                O melhor capítulo ainda está sendo escrito...
+            </h1>
+
+            <p>
+                Tawan ❤️ Yasmin
+            </p>
+
+            <p>
+                ♾️
+            </p>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#0f0f1a;
+color:white;
+overflow-x:hidden;
+}
+
+.start-screen{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.start-screen h1{
+font-size:4rem;
+font-family:'Dancing Script';
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:30px;
+font-size:18px;
+cursor:pointer;
+margin-top:20px;
+}
+
+#content{
+display:none;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:4rem;
+font-family:'Dancing Script';
+}
+
+.chapter{
+padding:80px 20px;
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.chapter h2{
+margin-bottom:20px;
+font-family:'Dancing Script';
+font-size:3rem;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.paper{
+background:white;
+color:black;
+padding:30px;
+border-radius:20px;
+max-width:800px;
+margin:auto;
+line-height:1.9;
+}
+
+.letter{
+padding:60px 20px;
+}
+
+.final{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.heart{
+position:fixed;
+font-size:25px;
+animation:fall 8s linear infinite;
+}
+
+@keyframes fall{
+0%{
+transform:translateY(-100px);
+}
+100%{
+transform:translateY(110vh);
+}
+}
